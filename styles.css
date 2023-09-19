@@ -1,0 +1,195 @@
+/*font-family: 'Hind Madurai', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Press Start 2P', cursive;
+plava: #80cbc4
+zuta: #fcc03e
+tamna plava: #003669
+crna: #1e352f
+*/
+
+/*Global*/
+
+html,
+body {
+  background-color: #80cbc4;
+  color: #1e352f;
+  margin: 0;
+}
+
+.index {
+  height: 100%;
+  padding: 20%;
+  background: url("https://images.pexels.com/photos/36704/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-position: top;
+}
+
+h1 {
+  font-family: 'Lora', serif;
+}
+
+p {
+  font-family: 'Hind Madurai', sans-serif;
+}
+
+div {
+  font-family: 'Hind Madurai', sans-serif;
+}
+
+a {
+  color: #fcc03e;
+  text-decoration: none;
+  display: block;
+}
+
+a:hover {
+  color: #f46767;
+  text-decoration: none;
+}
+
+
+/*Navigacijski bar*/
+.nav-bar {
+  height: 100px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#logo-item {
+  height: 60px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.logo {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.logo a {
+  font-size: 22px;
+  font-family: 'Lora', serif;
+  text-transform: uppercase;
+  color: #1e352f;
+}
+
+.nav-bar-item {
+  width: 16%;
+  text-align: center;
+}
+
+.nav-bar-item a {
+  color: #fcc03e;
+  text-decoration: none;
+}
+
+.nav-bar-item a:hover {
+  color: #063665;
+  text-decoration: none;
+}
+
+/*Kviz - pitanja - ogovori*/
+.kvizovi {
+  display: flex;
+  color: #063665;
+  text-decoration: none;
+}
+
+.kvizovi:hover {
+  color: #f46767;
+  text-decoration: none;
+}
+
+
+/*section*/
+button {
+  background-color: #fcc03e;
+  color: white;
+  font-size: 20px;
+  border-radius: 20px;
+  border: none;
+  height: 50px;
+  width: 150px;
+  cursor: pointer;
+}
+
+
+
+label {
+  font-size: 18px;
+}
+
+.odgovor {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: end;
+}
+
+.nazad-link a {
+  font-size: 18px;
+  color: #fca428;
+  text-transform: uppercase;
+}
+
+.nazad-link img {
+  margin-bottom: -11px;
+}
+
+.kviz-wrapper {
+  background-color: white;
+  padding: 50px;
+}
+
+.drugiA {
+  height: 40px;
+  text-align: center;
+  background-color: #fca428;
+  font-size: 20px;
+  margin-top: 10px;
+  border-radius: 40px;
+  color: white;
+  padding-top: 10px;
+}
+
+.drugiA:hover {
+  color: #063665;
+}
+
+.materijaliUcenje {
+  color: white;
+}
+
+.materijaliUcenje:hover {
+  color: black;
+}
+
+#bodovi {
+  color: #2AB7CA;
+  font-size: 20px;
+}
+
+#svi-kvizovi {
+  height: 100%;
+  padding: 20%;
+  background: url("https://images.pexels.com/photos/337904/pexels-photo-337904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-position: bottom;
+}
+
+.cover {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  text-align: center;
+}
+
+.oNama-div {
+  margin-left: 20px;
+  color: white;
+}
+
+.ucenje-materijali {
+  color: white;
+  margin-left: 20px;
+}
